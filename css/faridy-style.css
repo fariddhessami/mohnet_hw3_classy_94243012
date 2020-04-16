@@ -24,4 +24,22 @@ body {
 
 .container-1 {
     background-color: #bac0b9;
+    display: flex;
+}
+
+.container-1 div {
+    border: 1px #556352 solid;
+    padding: 2%;
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.box-3 {
+    flex: 1;
 }
