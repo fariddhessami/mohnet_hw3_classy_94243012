@@ -1,0 +1,23 @@
+#nav ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #546f4c;
+}
+
+#nav {
+    background-color: #80ab75;
+}
+
+#header {
+    background-color: #b6b57d;
+}
+
+#sidebar {
+    background-color: #b6b57d;
+}
+
+#content {
+    background-color: #738e6b;
+}
