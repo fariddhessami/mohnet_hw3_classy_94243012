@@ -45,6 +45,17 @@ body {
 }
 
 
-/* #wrap {
-    display: flex;
+/* beginings of the float stuff */
+
+#sidebar {
+    float: right;
+}
+
+#content {
+    float: left;
+}
+
+
+/* #content {
+    float: none;
 } */
