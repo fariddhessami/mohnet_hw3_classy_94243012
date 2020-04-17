@@ -6,18 +6,21 @@
     <meta lang=“en”>
 
     <style>
-        /* color stylings */
+        /* deleting bullet points */
         
-        #nav ul {
+        #nav ul,
+        #content ul {
             list-style-type: none;
         }
+        /* color stylings */
         
         body {
             background-color: #546f4c;
         }
         
         #nav {
-            background-color: #80ab75;
+            /* background-color: #80ab75; */
+            background-color: #689c5a;
         }
         
         #header {
@@ -31,7 +34,68 @@
         #content {
             background-color: #738e6b;
         }
-        /* float stylings */
+        /* float clear display stylings */
+        
+        #wrap {}
+        
+        #nav ul li {
+            display: inline-block;
+        }
+        
+        #content {
+            float: left;
+        }
+        
+        #sidebar {
+            float: right;
+        }
+        
+        #footer {
+            clear: both;
+        }
+        /* margin and padding */
+        
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        #wrap {
+            margin: 0 auto;
+        }
+        /* paddings */
+        
+        #nav ul li {
+            padding: 8px;
+        }
+        /* text align */
+        
+        #content ul li {
+            text-align: center;
+        }
+        /* width */
+        
+        #wrap {
+            width: 800px;
+        }
+        
+        #content {
+            width: 500px;
+        }
+        
+        #sidebar {
+            width: 300px;
+        }
+        /* alignings */
+        
+        #wrap div {
+            align-content: center;
+        }
+        /* borders */
+        
+        #nav {
+            border-bottom: 4px dashed #dff2f8;
+        }
     </style>
 </head>
 
